@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import umc.spring.service.StoreQueryService;
 
+/*
 @SpringBootApplication
 @EnableJpaAuditing
 public class StudyApplication {
@@ -35,3 +36,5 @@ public class StudyApplication {
         };
     }
 }
+
+ */

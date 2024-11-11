@@ -1,6 +1,5 @@
 package umc.spring.repository.MissionRepository;
 
-import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import umc.spring.domain.QMember;
@@ -8,6 +7,7 @@ import umc.spring.domain.QMission;
 
 import java.util.List;
 
+/*
 @Repository
 @RequiredArgsConstructor
 public class MissionRepositoryImpl implements MissionRepositoryCustom {
@@ -23,8 +23,6 @@ public class MissionRepositoryImpl implements MissionRepositoryCustom {
         int pageSize = 10;
         int offset = (currentPageIndex - 1) * pageSize;
 
-        return null;
-        /*
         return jpaQueryFactory
                 .select(mission.name)
                 .from(mission)
@@ -33,8 +31,6 @@ public class MissionRepositoryImpl implements MissionRepositoryCustom {
                 .limit(pageSize)
                 .offset(offset)
                 .fetch();
-
-         */
     }
 
     @Override
@@ -43,9 +39,6 @@ public class MissionRepositoryImpl implements MissionRepositoryCustom {
         int pageSize = 10;
         int offset = (currentPageIndex - 1) * pageSize;
 
-        return null;
-
-        /*
         return jpaQueryFactory
                 .select(mission.name)
                 .from(mission)
@@ -54,7 +47,6 @@ public class MissionRepositoryImpl implements MissionRepositoryCustom {
                 .limit(pageSize)
                 .offset(offset)
                 .fetch();
-
-         */
     }
 }
+*/

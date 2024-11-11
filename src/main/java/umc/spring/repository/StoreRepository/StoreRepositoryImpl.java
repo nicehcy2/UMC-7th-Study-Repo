@@ -1,7 +1,5 @@
 package umc.spring.repository.StoreRepository;
 
-import com.querydsl.core.BooleanBuilder;
-import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import umc.spring.domain.QStore;
@@ -9,6 +7,7 @@ import umc.spring.domain.Store;
 
 import java.util.List;
 
+/*
 @Repository
 @RequiredArgsConstructor
 public class StoreRepositoryImpl implements StoreRepositoryCustom {
@@ -34,3 +33,5 @@ public class StoreRepositoryImpl implements StoreRepositoryCustom {
                 .fetch();
     }
 }
+
+ */

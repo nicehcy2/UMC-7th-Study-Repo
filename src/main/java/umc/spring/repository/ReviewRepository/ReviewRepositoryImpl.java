@@ -1,6 +1,5 @@
 package umc.spring.repository.ReviewRepository;
 
-import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import umc.spring.domain.QReview;
@@ -8,6 +7,7 @@ import umc.spring.domain.QStore;
 
 import java.util.List;
 
+/*
 @Repository
 @RequiredArgsConstructor
 public class ReviewRepositoryImpl implements ReviewRepositoryCustom {
@@ -26,3 +26,5 @@ public class ReviewRepositoryImpl implements ReviewRepositoryCustom {
                 .fetch();
     }
 }
+
+ */
