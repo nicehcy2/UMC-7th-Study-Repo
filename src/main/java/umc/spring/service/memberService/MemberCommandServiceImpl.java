@@ -40,4 +40,9 @@ public class MemberCommandServiceImpl implements MemberCommandService {
 
         return memberRepository.save(newMember);
     }
+
+    @Override
+    public Boolean isMember(String value) {
+        return memberRepository.existsByName(value);
+    }
 }

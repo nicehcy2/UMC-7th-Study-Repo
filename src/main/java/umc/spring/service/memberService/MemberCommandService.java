@@ -5,4 +5,5 @@ import umc.spring.dto.MemberRequestDTO;
 
 public interface MemberCommandService {
     Member joinMember(MemberRequestDTO.JoinDto request);
+    Boolean isMember(String value);
 }
