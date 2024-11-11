@@ -19,9 +19,15 @@ public class Mission extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(length = 30)
+    private String name;
+
     private Integer reward;
 
     private LocalDate deadline;
+
+    @Column(length = 4)
+    private String status;
 
     @Column(columnDefinition = "TEXT")
     private String missionSpec;
