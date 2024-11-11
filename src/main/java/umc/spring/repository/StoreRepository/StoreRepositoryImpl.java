@@ -2,7 +2,7 @@ package umc.spring.repository.StoreRepository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import umc.spring.domain.QStore;
+// import umc.spring.domain.QStore;
 import umc.spring.domain.Store;
 
 import java.util.List;

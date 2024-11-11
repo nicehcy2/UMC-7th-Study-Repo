@@ -2,8 +2,8 @@ package umc.spring.repository.ReviewRepository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import umc.spring.domain.QReview;
-import umc.spring.domain.QStore;
+// import umc.spring.domain.QReview;
+// import umc.spring.domain.QStore;
 
 import java.util.List;
 

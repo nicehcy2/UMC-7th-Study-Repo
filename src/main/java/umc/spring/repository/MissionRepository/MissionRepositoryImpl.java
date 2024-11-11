@@ -2,8 +2,8 @@ package umc.spring.repository.MissionRepository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import umc.spring.domain.QMember;
-import umc.spring.domain.QMission;
+// import umc.spring.domain.QMember;
+// import umc.spring.domain.QMission;
 
 import java.util.List;
 
