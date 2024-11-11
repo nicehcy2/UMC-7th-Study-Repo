@@ -1,5 +1,6 @@
 package umc.spring.config;
 
+/*
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -16,3 +17,5 @@ public class QueryDSLConfig {
         return new JPAQueryFactory(entityManager);
     }
 }
+
+ */
