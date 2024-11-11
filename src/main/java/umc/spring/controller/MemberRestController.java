@@ -11,7 +11,7 @@ import umc.spring.converter.MemberConverter;
 import umc.spring.domain.Member;
 import umc.spring.dto.MemberRequestDTO;
 import umc.spring.dto.MemberResponseDTO;
-import umc.spring.service.MemberCommandService;
+import umc.spring.service.memberService.MemberCommandService;
 
 @RestController
 @RequiredArgsConstructor
