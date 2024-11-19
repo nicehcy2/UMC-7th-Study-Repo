@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import umc.spring.domain.Store;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -32,5 +33,21 @@ public class StoreResponseDTO {
         Float score;
         String body;
         LocalDate createdAt;
+    }
+
+    @Builder
+    @Getter
+    @AllArgsConstructor
+    @NoArgsConstructor
+    public static class StoreMissionsDTO {
+        String name;
+
+        Integer reward;
+
+        LocalDate deadline;
+
+        String status;
+
+        String missionSpec;
     }
 }
