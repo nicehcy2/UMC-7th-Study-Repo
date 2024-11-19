@@ -6,6 +6,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import umc.spring.apiPayload.code.status.ErrorStatus;
+import umc.spring.apiPayload.exception.handler.MemberHandler;
 import umc.spring.apiPayload.exception.handler.RegionHandler;
 import umc.spring.domain.Region;
 import umc.spring.domain.Review;
@@ -49,7 +50,8 @@ public class StoreServiceImpl implements StoreService {
     @Override
     public Page<Review> getReviewList(Long storeId, Integer page) {
 
-        Store store = storeRepository.findById(storeId).get();
+        Store store = storeRepository.findById(storeId)
+                .orElseThrow(() -> new MemberHandler(ErrorStatus.STORE_NOT_FOUND));
 
         Page<Review> storePage = reviewRepository.findAllByStore(store, PageRequest.of(page, 10));
         return storePage;

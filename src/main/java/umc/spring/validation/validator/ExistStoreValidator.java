@@ -10,7 +10,7 @@ import umc.spring.validation.annotation.ExistStore;
 
 @Component
 @RequiredArgsConstructor
-public class StoreExistValidator implements ConstraintValidator<ExistStore, String> {
+public class ExistStoreValidator implements ConstraintValidator<ExistStore, String> {
 
     private final StoreService storeService;
 
